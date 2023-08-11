@@ -1,0 +1,23 @@
+* {
+    background: var(--color-bg);
+}
+
+/* About.css */
+.me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px; /* Agrega espacio a los lados */
+    margin: 50px auto; /* Centra verticalmente y agrega margen en la parte superior e inferior */
+    max-width: 1400px; /* Limita el ancho máximo del componente */
+    box-shadow: 0 0 10px rgba(172, 166, 166, 0.1); /* Agrega sombra */
+}
+
+.me h1 {
+    font-size: 40px;
+}
+
+.me div {
+    font-size: 24px;
+}
