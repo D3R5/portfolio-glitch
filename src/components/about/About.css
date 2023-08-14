@@ -8,10 +8,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0 20px; /* Agrega espacio a los lados */
-    margin: 50px auto; /* Centra verticalmente y agrega margen en la parte superior e inferior */
-    max-width: 1400px; /* Limita el ancho máximo del componente */
-    box-shadow: 0 0 10px rgba(172, 166, 166, 0.1); /* Agrega sombra */
+    font-size: 21px;
+    line-height: 1.5;
+    padding: 50px 20px; 
+    margin: 50px auto; 
+    max-width: 1400px; 
 }
 
 .me h1 {
@@ -20,4 +21,32 @@
 
 .me div {
     font-size: 24px;
+}
+
+.interests {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    font-size: 21px;
+    line-height: 1.5;
+    padding: 0 20px;
+    margin: -50px auto;
+    max-width: 900px;
+}
+
+.interests span {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 1370px) {
+    .me {
+        max-width: 900px;
+        font-size: 21px;
+        line-height: 1.5;
+    }
 }

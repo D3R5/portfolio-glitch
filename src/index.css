@@ -12,9 +12,10 @@
 
 :root {
     --font-title: 'Roboto Mono', monospace;
-    --color-bg: black;
+    --color-bg: #28292A;
     --color-text: #fff;
     --img-dot: url(../src/assets/dot.png);
+    --color-y:yellow;
 }
 
 

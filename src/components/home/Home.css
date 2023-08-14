@@ -13,7 +13,7 @@
 
 .glitch {
     cursor: pointer;
-    font-size: 7rem;
+    font-size: 8rem;
     font-weight: 700;
     text-transform: uppercase;
     position: relative;
@@ -61,7 +61,7 @@
     justify-content: flex-start;
     overflow: hidden;
     position: absolute;
-    top: 42px;
+    top: 6.5%;
     left: 750px;
     display: none;
 }
@@ -73,7 +73,7 @@
     justify-content: flex-start;
     overflow: hidden;
     position: absolute;
-    top: 170px;
+    top: 26%;
     left: 720px;
 }
 
@@ -84,7 +84,7 @@
     justify-content: flex-start;
     overflow: hidden;
     position: absolute;
-    top: 300px;
+    top: 45%;
     left: 650px;
 }
 
@@ -95,7 +95,7 @@
     justify-content: flex-start;
     overflow: hidden;
     position: absolute;
-    top: 430px;
+    top: 65%;
     left: 680px;
 }
 
@@ -145,7 +145,7 @@ h2 {
 .nav-list2 li {
     margin: 0;
     padding: 0;
-    margin-top: 60px;
+    margin-top: 140px;
     margin-right: 100px;
 }
 
@@ -159,12 +159,15 @@ h2 {
     font-family: var(--font-title);
     font-size: 20px;
     font-weight: bold;
-    color: #fcee0a;
 }
 
 /*! Subrayado */
 .link-hover {
     position: relative;
+}
+
+.link-hover:hover {
+    color: #fcee0a; /* Change to the desired color */
 }
 
 .link-hover::before {
@@ -254,7 +257,7 @@ h2 {
 
 @media screen and (max-width: 1370px) {
     .container {
-        margin-top: 70px;
+        margin-top: 150px;
         gap: 50px;
         height: 100vh; /* Establecer la altura al 100% de la ventana gráfica */
     }
@@ -264,22 +267,27 @@ h2 {
     }
 
     .slide1 {
-        top: 28px;
+        top: 1%;
         left: 435px;
     }
 
     .slide2 {
-        top: 142px;
+        top: 15.5%;
         left: 430px;
     }
 
     .slide3 {
-        top: 249px;
+        top: 31%;
         left: 380px;
     }
 
     .slide4 {
-        top: 362px;
+        top: 46%;
         left: 400px;
+    }
+
+    .nav-list2 li {
+        margin-top: 80px;
+        
     }
 }

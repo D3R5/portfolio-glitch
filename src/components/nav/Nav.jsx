@@ -16,9 +16,9 @@ function Nav() {
     const navItems = [
         { text: 'HOME ', altText: 'H0M3', link: '/' },
         { text: 'ABOUT', altText: '4B0UT', link: '/about' },
-        { text: 'CONTACT', altText: 'C0NT4CT', link: '/contact' },
         { text: 'EXPERIENCE', altText: '3XP3R13NC3', link: '/experience' },
         { text: 'PORTFOLIO', altText: 'P0RTF0L10', link: '/portfolio' },
+        { text: 'CONTACT', altText: 'C0NT4CT', link: '/contact' },
     ];
 
     return (
